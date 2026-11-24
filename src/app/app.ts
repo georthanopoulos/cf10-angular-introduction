@@ -23,7 +23,7 @@ import { Person } from './shared/interfaces/person';
 export class App {
   protected readonly title = signal('angular-introduction');
   // Step 1 One way Binding
-  name = 'Markos'
+  name = 'George'
 
   user = {
     firstname: "Bob",
