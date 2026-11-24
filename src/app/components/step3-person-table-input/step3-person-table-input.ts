@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Person } from '../../shared/interfaces/person';
 
 @Component({
   imports: [],
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './step3-person-table-input.css',
   templateUrl: './step3-person-table-input.html',
 })
-export class Step3PersonTableInput {}
+export class Step3PersonTableInput {
+  @Input() person: Person | undefined
+}

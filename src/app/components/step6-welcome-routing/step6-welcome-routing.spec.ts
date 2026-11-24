@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Ste6WelcomeRouting } from './ste6-welcome-routing';
+import { Step6WelcomeRouting } from './step6-welcome-routing';
 
-describe('Ste6WelcomeRouting', () => {
-  let component: Ste6WelcomeRouting;
-  let fixture: ComponentFixture<Ste6WelcomeRouting>;
+describe('Step6WelcomeRouting', () => {
+  let component: Step6WelcomeRouting;
+  let fixture: ComponentFixture<Step6WelcomeRouting>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Ste6WelcomeRouting],
+      imports: [Step6WelcomeRouting],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(Ste6WelcomeRouting);
+    fixture = TestBed.createComponent(Step6WelcomeRouting);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

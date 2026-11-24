@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ɵresetIncrementalHydrationRuntimeForTests } from '@angular/core';
 
 @Component({
   imports: [],
@@ -6,4 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './step5-event-bind.css',
   templateUrl: './step5-event-bind.html',
 })
-export class Step5EventBind {}
+export class Step5EventBind {
+  times: number = 0;
+  
+  incrementTimes() {
+    this.times++;
+  }
+
+  decrementTimes(){
+    this.times--;
+  }
+}
