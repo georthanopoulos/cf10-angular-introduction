@@ -39,7 +39,7 @@ export class Step8SimpleDataTable {
   }
 
   onPersonClicked(person: Person){
-    console.log(person);
+    // console.log(person);
     this.personClicked.emit(person)
   }
 }

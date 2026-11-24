@@ -10,4 +10,8 @@ import { ManyPerson, Person } from '../../shared/interfaces/person';
 })
 export class Step9ComponentOutput {
   manyPerson = ManyPerson
+
+  showPersonClicked(person: Person){
+    console.log("FROM STEP 9>>", person);
+  }
 }
