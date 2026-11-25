@@ -1,5 +1,5 @@
 export interface DadJoke {
-  joke: string
+  joke?: string
 }
 
 export interface ChuckNorrisJoke {
